@@ -1,0 +1,25 @@
+{
+  "name": "amazon-scraper-api-project",
+  "version": "1.0.0",
+  "description": "This API is written in NodeJS.  It is a scraper that will allow you to scrape amazon.com and get back useful information about your search.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l33th/amazon-scraper-api-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l33th/amazon-scraper-api-project/issues"
+  },
+  "homepage": "https://github.com/l33th/amazon-scraper-api-project#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "request-promise": "^4.2.6"
+  }
+}
