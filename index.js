@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the LTH-33 Amazon Scraper API')
-})
+  res.send('Welcome to the LTH-33 Amazon Scraper API');
+});
 
+app.listen(PORT, () => console.log(`server running on port ${PORT}`));
